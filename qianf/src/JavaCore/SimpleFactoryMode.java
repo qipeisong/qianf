@@ -2,6 +2,7 @@ package JavaCore;
 
 /*�趨����ģʽ����������֮�������*/
 /***/
+/*hahahahhahaha*/
 
 public class SimpleFactoryMode {
 	public static void main(String[] args) {
