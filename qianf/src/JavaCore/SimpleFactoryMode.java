@@ -1,10 +1,11 @@
 package JavaCore;
 
-/*Éè¶¨¹¤³§Ä£Ê½£¬½µµÍÁ½ÕßÖ®¼äµÄÒÀÀµ*/
+/*ï¿½è¶¨ï¿½ï¿½ï¿½ï¿½Ä£Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+/***/
 
 public class SimpleFactoryMode {
 	public static void main(String[] args) {
-	//Product  phone = new Phone();//Á½ÕßÖ®¼äÒÀÀµÐÔÌ«Ç¿
+	//Product  phone = new Phone();//ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì«Ç¿
    // phone.work();
 	Product phone = ProductFactory.GetProduct("phone");
 	phone.work();
@@ -17,13 +18,13 @@ interface Product{
 
 class Phone implements Product{
 	public void work() {
-		System.out.println("ÊÖ»ú¿ªÊ¼");
+		System.out.println("ï¿½Ö»ï¿½ï¿½ï¿½Ê¼");
 	}
 }
 
 class Computer implements Product{
 	public void work (){
-		System.out.println("µçÄÔ¿ªÊ¼¹¤×÷");
+		System.out.println("ï¿½ï¿½ï¿½Ô¿ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½");
 	}
 }
 
